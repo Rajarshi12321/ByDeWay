@@ -1,0 +1,10 @@
+pandas
+sentencepiece
+langchain_google_genai
+google.generativeai
+langchain
+langchain-community
+datasets 
+huggingface_hub
+transformers
+ipywidgets
