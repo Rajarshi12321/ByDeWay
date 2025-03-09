@@ -18,3 +18,4 @@ matplotlib
 tensorflow
 shapely
 ipykernel
+opencv-python

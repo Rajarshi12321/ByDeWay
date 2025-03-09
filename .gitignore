@@ -7,6 +7,8 @@ __pycache__/
 # C extensions
 *.so
 
+
+Depth-Anything-V2/
 # Distribution / packaging
 .Python
 build/
