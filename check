@@ -5,3 +5,7 @@ pip install -r requirements.txt
 
 chmod +x install_depth_anything.sh
 ./install_depth_anything.sh
+
+--------Activate-VENV---------
+
+source .venv/bin/activate
