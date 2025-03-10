@@ -1,0 +1,1321 @@
+id,image,obj_text,ref_ids,json_data,depth_caption
+000000007601,image/image_0.jpg,"['A black cow that is only half visible standing close to a fully visible cow.'
+ 'The far right black cow.; cow on the far right who is barely visible; cow butt 3:00; cow barely showing; cow far right; far right cow butt'
+ 'A cow standing in high grass wearing an ear tag with the number 342.; Cow with a number 312 on a tag on its ear.; yellow tag in ear; cow with tag; Cow with yellow tag; middle cow; big cow yellow tag; center cow']",[3 1 2],"[{'ref_id': 3, 'text': array(['A black cow that is only half visible standing close to a fully visible cow.'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['The far right black cow.',
+        'cow on the far right who is barely visible', 'cow butt 3:00',
+        'cow barely showing', 'cow far right', 'far right cow butt'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['A cow standing in high grass wearing an ear tag with the number 342.',
+        'Cow with a number 312 on a tag on its ear.', 'yellow tag in ear',
+        'cow with tag', 'Cow with yellow tag', 'middle cow',
+        'big cow yellow tag', 'center cow'], dtype=object)}                                          ]","Closest: a cow
+----
+Mid Range: a power line
+----
+Farthest: an elephant
+----
+"
+000000031187,image/image_1.jpg,"['little girl in light green shirt; Little Girl in a green dress waiting for the cake to be cut.; green; green dress; green shirt; Girl in green; girl in green; girl in green'
+ 'the blonde girls head; blonde hair with small green hairtie; blonde hair; blonde hair; blonde girl; blonde hair girl on left; hair in left corner; blonde head'
+ 'A knife cutting a cake.; Person wearing jacket cutting the cake.; standing man; person cutting cake; cutting the cake; man cutting cake'
+ 'girl with glasses; glasses; girl with glasses; right kid; right gal!; right kid']",[2 1 3 4],"[{'ref_id': 2, 'text': array(['little girl in light green shirt',
+        'Little Girl in a green dress waiting for the cake to be cut.',
+        'green', 'green dress', 'green shirt', 'Girl in green',
+        'girl in green', 'girl in green'], dtype=object)}
+ {'ref_id': 1, 'text': array(['the blonde girls head', 'blonde hair with small green hairtie',
+        'blonde hair', 'blonde hair', 'blonde girl',
+        'blonde hair girl on left', 'hair in left corner', 'blonde head'],
+       dtype=object)}
+ {'ref_id': 3, 'text': array(['A knife cutting a cake.',
+        'Person wearing jacket cutting the cake.', 'standing man',
+        'person cutting cake', 'cutting the cake', 'man cutting cake'],
+       dtype=object)}
+ {'ref_id': 4, 'text': array(['girl with glasses', 'glasses', 'girl with glasses', 'right kid',
+        'right gal!', 'right kid'], dtype=object)}                                             ]","Closest: a birthday cake
+----
+Mid Range: a bride
+----
+Farthest: a girl
+----
+"
+000000066669,image/image_2.jpg,"['an orange cat stuffed animal; The teddy bear that is as large as the baby.'
+ 'The group of stuffed animals the child is facing.; Infant feed her teddy bear']",[4 5],"[{'ref_id': 4, 'text': array(['an orange cat stuffed animal',
+        'The teddy bear that is as large as the baby.'], dtype=object)}
+ {'ref_id': 5, 'text': array(['The group of stuffed animals the child is facing.',
+        'Infant feed her teddy bear'], dtype=object)}                             ]","Closest: a baby
+----
+Mid Range: a cow
+----
+Farthest: a person
+----
+"
+000000017997,image/image_3.jpg,"['The giraffe standing in the middle.; A giraffe in between two other giraffes.; giraffe mostly facing us; Giraffe partially facing the camers; giraffe 2; middle giraffe; middle giraffe; MIDDLE GIRAFFE'
+ 'The giraffe closest to the gate; not with couple; closest giraffe against white wall; giraffe going opposite direction of other two; right girafee; giraffe looking right; right one']",[3 2],"[{'ref_id': 3, 'text': array(['The giraffe standing in the middle.',
+        'A giraffe in between two other giraffes.',
+        'giraffe mostly facing us', 'Giraffe partially facing the camers',
+        'giraffe 2', 'middle giraffe', 'middle giraffe', 'MIDDLE GIRAFFE'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['The giraffe closest to the gate', 'not with couple',
+        'closest giraffe against white wall',
+        'giraffe going opposite direction of other two', 'right girafee',
+        'giraffe looking right', 'right one'], dtype=object)}                      ]","Closest: three giraffes
+----
+Mid Range: a person
+----
+Farthest: three giraffes
+----
+"
+000000032707,image/image_4.jpg,"['skier in orange coat in the right hand picture; Skier with black pants and orange jacket facing another skier in a green ski suit'
+ 'A skier in a green outfit.; Someone in a green ski waiting to ski.']",[2 1],"[{'ref_id': 2, 'text': array(['skier in orange coat in the right hand picture',
+        'Skier with black pants and orange jacket facing another skier in a green ski suit'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['A skier in a green outfit.',
+        'Someone in a green ski waiting to ski.'], dtype=object)}]","Closest: two people
+----
+Mid Range: the Earth
+----
+Farthest: two people
+----
+"
+000000039802,image/image_5.jpg,"[""A table with a man's arm rested on it.""
+ 'black colored coat in the chair of man with white shirt; Jacket on back of chair of picture taker'
+ 'black shirt; black and red tie; red and black tie; guy on left; left black shirt guy; man on left'
+ 'man in white shirt; white shirt; WHITE SHIRT; right white shirt; white shirt man']",[17 21  3  2],"[{'ref_id': 17, 'text': array([""A table with a man's arm rested on it.""], dtype=object)}
+ {'ref_id': 21, 'text': array(['black colored coat in the chair of man with white shirt',
+        'Jacket on back of chair of picture taker'], dtype=object)}
+ {'ref_id': 3, 'text': array(['black shirt', 'black and red tie', 'red and black tie',
+        'guy on left', 'left black shirt guy', 'man on left'], dtype=object)}
+ {'ref_id': 2, 'text': array(['man in white shirt', 'white shirt', 'WHITE SHIRT',
+        'right white shirt', 'white shirt man'], dtype=object)}                  ]","Closest: a man
+----
+Mid Range: people
+----
+Farthest: people
+----
+"
+000000037160,image/image_6.jpg,"[""rainbow colored umbrella over a gent; A striped umbrella above a man's head.""
+ 'Outer edge of a solid navy blue umbrella; The edge of a blue umbrella.']",[8 9],"[{'ref_id': 8, 'text': array(['rainbow colored umbrella over a gent',
+        ""A striped umbrella above a man's head.""], dtype=object)}
+ {'ref_id': 9, 'text': array(['Outer edge of a solid navy blue umbrella',
+        'The edge of a blue umbrella.'], dtype=object)}                  ]","Closest: a person
+----
+Mid Range: elephants
+----
+Farthest: a virtual elephant
+----
+"
+000000006068,image/image_7.jpg,"['A lone train car, soon to be bypassed by a locomotive in motion on the opposite track.; A gray and undetached train cart on the tracks.']",[2],"[{'ref_id': 2, 'text': array(['A lone train car, soon to be bypassed by a locomotive in motion on the opposite track.',
+        'A gray and undetached train cart on the tracks.'], dtype=object)}                                             ]","Closest: a train
+----
+Mid Range: a frog
+----
+Farthest: a train
+----
+"
+000000028230,image/image_8.jpg,['A woman doing acrobatics on a street corner.; a girl doing pole tricks'],[3],"[{'ref_id': 3, 'text': array(['A woman doing acrobatics on a street corner.',
+        'a girl doing pole tricks'], dtype=object)}                          ]","Closest: a woman
+----
+Mid Range: a person
+----
+Farthest: a pole dancer
+----
+"
+000000003320,image/image_9.jpg,['A man dressed in all black with a black backpack; The man with the black backpack strapped to his chest.'],[3],"[{'ref_id': 3, 'text': array(['A man dressed in all black with a black backpack',
+        'The man with the black backpack strapped to his chest.'],
+       dtype=object)}                                                            ]","Closest: a person
+----
+Mid Range: a white stick
+----
+Farthest: a person
+----
+"
+000000021595,image/image_10.jpg,['A clear wine glass with liquid inside of it; Empty clear glass margarita glass'],[3],"[{'ref_id': 3, 'text': array(['A clear wine glass with liquid inside of it',
+        'Empty clear glass margarita glass'], dtype=object)}                ]","Closest: a pizza
+----
+Mid Range: a pizza
+----
+Farthest: a pizza
+----
+"
+000000030231,image/image_11.jpg,['the table in front of the guy with the red sweatshirt; The edge of a table. Part of a pair of pants is visible.'],[11],"[{'ref_id': 11, 'text': array(['the table in front of the guy with the red sweatshirt',
+        'The edge of a table. Part of a pair of pants is visible.'],
+       dtype=object)}                                                                  ]","Closest: a man
+----
+Mid Range: a man
+----
+Farthest: a man
+----
+"
+000000015658,image/image_12.jpg,['a person in a black sweatshirt; A person in black on a court.'],[2],"[{'ref_id': 2, 'text': array(['a person in a black sweatshirt', 'A person in black on a court.'],
+       dtype=object)}                                                                            ]","Closest: a tennis player
+----
+Mid Range: a person
+----
+Farthest: a tennis player
+----
+"
+000000005587,image/image_13.jpg,"['A plate with four biscuits, sitting under two other plates.; The muffins on the bottom of the photo.; plate with rolls; lowest tier on the plates; Plate with biscuits; Bottom plate with 4; bottom front dish'
+ 'The square table the people are sitting at'
+ 'tallest tier; highest plate; plate of food closest to sky; top plate; top tier plate']",[22 45 23],"[{'ref_id': 22, 'text': array(['A plate with four biscuits, sitting under two other plates.',
+        'The muffins on the bottom of the photo.', 'plate with rolls',
+        'lowest tier on the plates', 'Plate with biscuits',
+        'Bottom plate with 4', 'bottom front dish'], dtype=object)}
+ {'ref_id': 45, 'text': array(['The square table the people are sitting at'], dtype=object)}
+ {'ref_id': 23, 'text': array(['tallest tier', 'highest plate', 'plate of food closest to sky',
+        'top plate', 'top tier plate'], dtype=object)}                                         ]","Closest: a violin
+----
+Mid Range: a plate of food
+----
+Farthest: a cowboy hat
+----
+"
+000000004477,image/image_14.jpg,"[""The elephant who has it's trunk curving upwards.; The elephant in the foreground with its trunk slightly raised.; Elephant closest; elephant; elephant main; front elephant""]",[2],"[{'ref_id': 2, 'text': array([""The elephant who has it's trunk curving upwards."",
+        'The elephant in the foreground with its trunk slightly raised.',
+        'Elephant closest', 'elephant', 'elephant main', 'front elephant'],
+       dtype=object)}                                                            ]","Closest: an elephant
+----
+Mid Range: an elephant
+----
+Farthest: an elephant
+----
+"
+000000033017,image/image_15.jpg,"['Ford SUV; a car on the road'
+ ""black luggage with yellow circle sticker; briefcase closest to green bag; bag with little round yellow sticker; middle bottom luggage; Suitcase on the bottom in the middle. It's to the right of what I believe to be a sleeping bag; front blk luggage with yellow dot""]",[ 1 12],"[{'ref_id': 1, 'text': array(['Ford SUV', 'a car on the road'], dtype=object)}
+ {'ref_id': 12, 'text': array(['black luggage with yellow circle sticker',
+        'briefcase closest to green bag',
+        'bag with little round yellow sticker', 'middle bottom luggage',
+        ""Suitcase on the bottom in the middle. It's to the right of what I believe to be a sleeping bag"",
+        'front blk luggage with yellow dot'], dtype=object)}                                             ]","Closest: a car
+----
+Mid Range: a suitcase
+----
+Farthest: a car
+----
+"
+000000022195,image/image_16.jpg,"['The train cart in front of and to the side of the blue train.; The brown train next to the blue train.'
+ 'blue train; the train; blue tran']",[3 2],"[{'ref_id': 3, 'text': array(['The train cart in front of and to the side of the blue train.',
+        'The brown train next to the blue train.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['blue train', 'the train', 'blue tran'], dtype=object)}]","Closest: a blue and white train
+----
+Mid Range: a person
+----
+Farthest: a train
+----
+"
+000000022926,image/image_17.jpg,['A small boat with an umbrella.; an outboard motor boat'],[2],"[{'ref_id': 2, 'text': array(['A small boat with an umbrella.', 'an outboard motor boat'],
+       dtype=object)}                                                                     ]","Closest: a boat
+----
+Mid Range: a tent
+----
+Farthest: a boat
+----
+"
+000000040433,image/image_18.jpg,"['Smaller gray elephant in sunlight.; An elephant out from under the shade with two short husks showing.'
+ 'An elephant which is standing on the right side of the two elephants.; The bigger elephant on the right.']",[3 2],"[{'ref_id': 3, 'text': array(['Smaller gray elephant in sunlight.',
+        'An elephant out from under the shade with two short husks showing.'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['An elephant which is standing on the right side of the two elephants.',
+        'The bigger elephant on the right.'], dtype=object)}                                          ]","Closest: an elephant
+----
+Mid Range: two elephants
+----
+Farthest: elephants
+----
+"
+000000010870,image/image_19.jpg,"['The laptop behind the beer bottle.; A laptop with a blank screen.; The computer looking at spider porn obscured by the pole.; laptop behind closest one; comp in back; laptop BEHIND the pole in the middle; white computer in back'
+ 'A partially taken wooden table'
+ 'Small white laptop on desk; laptop turned on; main laptop; Laptop; computer; laptop on']",[19 15 18],"[{'ref_id': 19, 'text': array(['The laptop behind the beer bottle.',
+        'A laptop with a blank screen.',
+        'The computer looking at spider porn obscured by the pole.',
+        'laptop behind closest one', 'comp in back',
+        'laptop BEHIND the pole in the middle', 'white computer in back'],
+       dtype=object)}
+ {'ref_id': 15, 'text': array(['A partially taken wooden table'], dtype=object)}
+ {'ref_id': 18, 'text': array(['Small white laptop on desk', 'laptop turned on', 'main laptop',
+        'Laptop', 'computer', 'laptop on'], dtype=object)}                                     ]","Closest: a laptop
+----
+Mid Range: a table
+----
+Farthest: a laptop
+----
+"
+000000020917,image/image_20.jpg,"['a bowl of sesame; A white bowl decorated with flowers containing sesame seeds.; pretty china bowl with plant painted on it; white bowl with leaves; a colorful bowl; small white bowl; white bowl near the vegetable plate; the bowl with the leaf print'
+ 'white bowl with dark stripe; white bowl with just a blue stripe; white bowl or cup with one blue stripe; white bowl back middle; top left bowl']",[4 6],"[{'ref_id': 4, 'text': array(['a bowl of sesame',
+        'A white bowl decorated with flowers containing sesame seeds.',
+        'pretty china bowl with plant painted on it',
+        'white bowl with leaves', 'a colorful bowl', 'small white bowl',
+        'white bowl near the vegetable plate',
+        'the bowl with the leaf print'], dtype=object)}
+ {'ref_id': 6, 'text': array(['white bowl with dark stripe',
+        'white bowl with just a blue stripe',
+        'white bowl or cup with one blue stripe', 'white bowl back middle',
+        'top left bowl'], dtype=object)}                                   ]","Closest: sushi
+----
+Mid Range: a surfboard
+----
+Farthest: a table with a variety of bowls, bottles, and a bowl
+----
+"
+000000019501,image/image_21.jpg,"['Woman body surfing.; a woman in a blue bikini.; Girl on boogie board; girl'
+ 'The person cheering in the white t-shirt.; The arm of someone in a white shirt.; arm in white shirt; white tshirt; arm sticking out; mans arm; arm of white shirt guy; the arm in the air']",[1 2],"[{'ref_id': 1, 'text': array(['Woman body surfing.', 'a woman in a blue bikini.',
+        'Girl on boogie board', 'girl'], dtype=object)}
+ {'ref_id': 2, 'text': array(['The person cheering in the white t-shirt.',
+        'The arm of someone in a white shirt.', 'arm in white shirt',
+        'white tshirt', 'arm sticking out', 'mans arm',
+        'arm of white shirt guy', 'the arm in the air'], dtype=object)}   ]","Closest: a girl
+----
+Mid Range: a man
+----
+Farthest: a surfer
+----
+"
+000000041357,image/image_22.jpg,['A skier with the number 377 on their chest.; A person downhill skiing wearing a vest that says 377 on it and a blue jacket.'],[2],"[{'ref_id': 2, 'text': array(['A skier with the number 377 on their chest.',
+        'A person downhill skiing wearing a vest that says 377 on it and a blue jacket.'],
+       dtype=object)}                                                                     ]","Closest: a cross-country skier
+----
+Mid Range: a person
+----
+Farthest: a person
+----
+"
+000000029473,image/image_23.jpg,"['the bowl of rasberries.; The bowl in which yoghurt and strawberries are kept'
+ 'The bread that it vertical in the container.'
+ 'the bowl with bread; A sandwich with thick wheat bread in a white bowl.; bread; sandwich; bread in the bowl; bread slice on top; bread in bowl top left; top left sandwich right side of bowl'
+ 'A white container with steamed carrots in it.; White plastic bowl of carrots and hummus next to white bowls of other food.'
+ 'plate with carrots; food in bowls; orange; carrots; Bottom left bowl.; bottom left dish'
+ 'green stuff; cuces; bowl of zuccini; bowl front right; zucchini bottom right; fried food looks good']",[2 6 7 8 3 4],"[{'ref_id': 2, 'text': array(['the bowl of rasberries.',
+        'The bowl in which yoghurt and strawberries are kept'],
+       dtype=object)}
+ {'ref_id': 6, 'text': array(['The bread that it vertical in the container.'], dtype=object)}
+ {'ref_id': 7, 'text': array(['the bowl with bread',
+        'A sandwich with thick wheat bread in a white bowl.', 'bread',
+        'sandwich', 'bread in the bowl', 'bread slice on top',
+        'bread in bowl top left', 'top left sandwich right side of bowl'],
+       dtype=object)}
+ {'ref_id': 8, 'text': array(['A white container with steamed carrots in it.',
+        'White plastic bowl of carrots and hummus next to white bowls of other food.'],
+       dtype=object)}
+ {'ref_id': 3, 'text': array(['plate with carrots', 'food in bowls', 'orange', 'carrots',
+        'Bottom left bowl.', 'bottom left dish'], dtype=object)}
+ {'ref_id': 4, 'text': array(['green stuff', 'cuces', 'bowl of zuccini', 'bowl front right',
+        'zucchini bottom right', 'fried food looks good'], dtype=object)}                   ]","Closest: a sandwich
+----
+Mid Range: a person
+----
+Farthest: four bowls of fruit and yogurt
+----
+"
+000000008856,image/image_24.jpg,"['Female playing WII in tan sweater; A women with a light tan shirt and dark jeans playing the Wii.'
+ 'person in dark brown sweater behind blonde']",[2 1],"[{'ref_id': 2, 'text': array(['Female playing WII in tan sweater',
+        'A women with a light tan shirt and dark jeans playing the Wii.'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['person in dark brown sweater behind blonde'], dtype=object)}]","Closest: a woman
+----
+Mid Range: a person
+----
+Farthest: a woman
+----
+"
+000000009822,image/image_25.jpg,"['A donut to the right of two other donuts.; doughnut; donut near 5pm; donut on the right; donut bottom right; Right donut'
+ 'The doughnut in the bottom left corner.; less oreo; largest doughnut; biggest donut; bottom left; Bottom left hand corner donut; donut bottom left'
+ 'THE SINGLE DONNET ON THE TOP; farthest donut; donut whose hole is almost completely covered by chocolate bits; More cookie pieces; smallest doughnut in furthest away; top left donut; back donut']",[3 2 1],"[{'ref_id': 3, 'text': array(['A donut to the right of two other donuts.', 'doughnut',
+        'donut near 5pm', 'donut on the right', 'donut bottom right',
+        'Right donut'], dtype=object)}
+ {'ref_id': 2, 'text': array(['The doughnut in the bottom left corner.', 'less oreo',
+        'largest doughnut', 'biggest donut', 'bottom left',
+        'Bottom left hand corner donut', 'donut bottom left'], dtype=object)}
+ {'ref_id': 1, 'text': array(['THE SINGLE DONNET ON THE TOP', 'farthest donut',
+        'donut whose hole is almost completely covered by chocolate bits',
+        'More cookie pieces', 'smallest doughnut in furthest away',
+        'top left donut', 'back donut'], dtype=object)}                        ]","Closest: three doughnuts
+----
+Mid Range: a black silhouette
+----
+Farthest: two donuts
+----
+"
+000000026421,image/image_26.jpg,"['Middle zebra; The zebra back in the bushes.'
+ 'Zebra behind a tree with its mouth to the ground.; zebra with face down eating; eating grass; zebra closet to camera that is eating; right zeb; right zebra; Right dragon'
+ 'smallest zebra with head up; left; baby zebra on left behind branch; baby zebra left']",[1 2 3],"[{'ref_id': 1, 'text': array(['Middle zebra', 'The zebra back in the bushes.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['Zebra behind a tree with its mouth to the ground.',
+        'zebra with face down eating', 'eating grass',
+        'zebra closet to camera that is eating', 'right zeb',
+        'right zebra', 'Right dragon'], dtype=object)}
+ {'ref_id': 3, 'text': array(['smallest zebra with head up', 'left',
+        'baby zebra on left behind branch', 'baby zebra left'],
+       dtype=object)}                                               ]","Closest: a zebra
+----
+Mid Range: a tree
+----
+Farthest: a rhino
+----
+"
+000000027679,image/image_27.jpg,['Inside of the oven.; Apple pie inside of an oven.'],[1],"[{'ref_id': 1, 'text': array(['Inside of the oven.', 'Apple pie inside of an oven.'],
+       dtype=object)}                                                                ]","Closest: a pink plastic bowl
+----
+Mid Range: a red-tinted glass ceiling
+----
+Farthest: a pie
+----
+"
+000000041818,image/image_28.jpg,"['A woman holding a glass of orange juice and smiling at the camera with her hand on her hip.; A lady in black over coat holding a glass of juice and posing.; woman; lady; girl; girl in black; nice lady; righ tperson'
+ 'A man in a t-shirt with faces on it.; A man in a white t-shirt holding a glass of juice.; guy; man holding juice; male; white shirt; left guy; guy on left white shirt']",[1 2],"[{'ref_id': 1, 'text': array(['A woman holding a glass of orange juice and smiling at the camera with her hand on her hip.',
+        'A lady in black over coat holding a glass of juice and posing.',
+        'woman', 'lady', 'girl', 'girl in black', 'nice lady',
+        'righ tperson'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A man in a t-shirt with faces on it.',
+        'A man in a white t-shirt holding a glass of juice.', 'guy',
+        'man holding juice', 'male', 'white shirt', 'left guy',
+        'guy on left white shirt'], dtype=object)}                   ]","Closest: a young man
+----
+Mid Range: a man
+----
+Farthest: a woman
+----
+"
+000000036546,image/image_29.jpg,"['A zebra under an alcove; A zebra laying down.; half of zebra; closest zebra; zebra not showing legs; half of a zebra in the foreground; laying down zebra; zebra laying down'
+ 'zebra not in shade; whole zebra; standing zebra; zebra back; zeb center; zebra near giraffe']",[2 1],"[{'ref_id': 2, 'text': array(['A zebra under an alcove', 'A zebra laying down.', 'half of zebra',
+        'closest zebra', 'zebra not showing legs',
+        'half of a zebra in the foreground', 'laying down zebra',
+        'zebra laying down'], dtype=object)}
+ {'ref_id': 1, 'text': array(['zebra not in shade', 'whole zebra', 'standing zebra',
+        'zebra back', 'zeb center', 'zebra near giraffe'], dtype=object)}           ]","Closest: a zebra
+----
+Mid Range: a horse
+----
+Farthest: a zebra
+----
+"
+000000019874,image/image_30.jpg,['The black car with one tire showing.; Black car that is behind the green car.'],[4],"[{'ref_id': 4, 'text': array(['The black car with one tire showing.',
+        'Black car that is behind the green car.'], dtype=object)}   ]","Closest: a person
+----
+Mid Range: a car
+----
+Farthest: a car
+----
+"
+000000041233,image/image_31.jpg,"['a dark gray truck; front end of a grey truck without the trailor'
+ 'An orange dump truck with its back raised up.; Orange dump truck.'
+ 'a white tractor big rig with a blue rope around the bumper; A white semi truck is parked by a black one, with a blue strap attached to the front.']",[18 17 16],"[{'ref_id': 18, 'text': array(['a dark gray truck',
+        'front end of a grey truck without the trailor'], dtype=object)}
+ {'ref_id': 17, 'text': array(['An orange dump truck with its back raised up.',
+        'Orange dump truck.'], dtype=object)}
+ {'ref_id': 16, 'text': array(['a white tractor big rig with a blue rope around the bumper',
+        'A white semi truck is parked by a black one, with a blue strap attached to the front.'],
+       dtype=object)}                                                                            ]","Closest: a truck
+----
+Mid Range: a baseball player
+----
+Farthest: a truck
+----
+"
+000000008063,image/image_32.jpg,"['A traveler with a black and yellow bag on his bag with others on transit.; A black and yellow backpack'
+ 'random blur of a person in the corner.; closest person not focuses; guys leg on the far right; right gray; man on far right side of frame'
+ 'kid sitting on carousel; person sitting diwn; little girl sitting; kid sitting down; child pink shirt sitting at left; girl sitting, pink shirt, blue pants'
+ 'man in backpack; black coat yellow backpack; person with yellow backpack; man standing middle; man center with backpack; MAN IWTH YELLOW BACKPACK']",[15  7  6  8],"[{'ref_id': 15, 'text': array(['A traveler with a black and yellow bag on his bag with others on transit.',
+        'A black and yellow backpack'], dtype=object)}
+ {'ref_id': 7, 'text': array(['random blur of a person in the corner.',
+        'closest person not focuses', 'guys leg on the far right',
+        'right gray', 'man on far right side of frame'], dtype=object)}
+ {'ref_id': 6, 'text': array(['kid sitting on carousel', 'person sitting diwn',
+        'little girl sitting', 'kid sitting down',
+        'child pink shirt sitting at left',
+        'girl sitting, pink shirt, blue pants'], dtype=object)}
+ {'ref_id': 8, 'text': array(['man in backpack', 'black coat yellow backpack',
+        'person with yellow backpack', 'man standing middle',
+        'man center with backpack', 'MAN IWTH YELLOW BACKPACK'],
+       dtype=object)}                                                         ]","Closest: a backpack
+----
+Mid Range: people
+----
+Farthest: a woman
+----
+"
+000000000795,image/image_33.jpg,['Train; A yellow train is in the station with people walking away from it.'],[9],"[{'ref_id': 9, 'text': array(['Train',
+        'A yellow train is in the station with people walking away from it.'],
+       dtype=object)}                                                         ]","Closest: a man
+----
+Mid Range: a train station
+----
+Farthest: people
+----
+"
+000000015190,image/image_34.jpg,"['trunk up elephant; A pair of elephants interacting.'
+ 'A woman in a pink tank top.; A woman in a pink tank top and khaki shorts.; pink tank on adult; red shirt; standing woman in red; no; pink shirt left'
+ 'Elephant in the background that you can only see his back directly behind the woman in the tank top; The elephant to the far left in front of the people.'
+ 'A man in a grey hat carrying a camera is looking at an elephant.; Man carrying a camera while wearing a grey hat.; hat; black shirt; man; person in hat kneeling; cap guy; man crouched'
+ 'kid in stripes; curly head girl; little girl; girl on right; child crouching; little girl bending down']",[5 2 6 3 1],"[{'ref_id': 5, 'text': array(['trunk up elephant', 'A pair of elephants interacting.'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['A woman in a pink tank top.',
+        'A woman in a pink tank top and khaki shorts.',
+        'pink tank on adult', 'red shirt', 'standing woman in red', 'no',
+        'pink shirt left'], dtype=object)}
+ {'ref_id': 6, 'text': array(['Elephant in the background that you can only see his back directly behind the woman in the tank top',
+        'The elephant to the far left in front of the people.'],
+       dtype=object)}
+ {'ref_id': 3, 'text': array(['A man in a grey hat carrying a camera is looking at an elephant.',
+        'Man carrying a camera while wearing a grey hat.', 'hat',
+        'black shirt', 'man', 'person in hat kneeling', 'cap guy',
+        'man crouched'], dtype=object)}
+ {'ref_id': 1, 'text': array(['kid in stripes', 'curly head girl', 'little girl',
+        'girl on right', 'child crouching', 'little girl bending down'],
+       dtype=object)}                                                            ]","Closest: a man
+----
+Mid Range: a man
+----
+Farthest: a mother
+----
+"
+000000004830,image/image_35.jpg,['Sink on the left; The sink farthest left.'],[7],"[{'ref_id': 7, 'text': array(['Sink on the left', 'The sink farthest left.'], dtype=object)}]","Closest: a towel
+----
+Mid Range: a black sink
+----
+Farthest: a mirror
+----
+"
+000000032575,image/image_36.jpg,"['A skier wearing green pants and blue jacket.; The skier wearing green pants and a blue shirt.'
+ 'a skier in a yellow jacket; A skier in yellow, blue, orange, and pink clothing.']",[1 2],"[{'ref_id': 1, 'text': array(['A skier wearing green pants and blue jacket.',
+        'The skier wearing green pants and a blue shirt.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['a skier in a yellow jacket',
+        'A skier in yellow, blue, orange, and pink clothing.'],
+       dtype=object)}                                          ]","Closest: two skiers
+----
+Mid Range: a black background
+----
+Farthest: two skiers
+----
+"
+000000033992,image/image_37.jpg,"['Left blacl chicken; Left black chicken; black chicken behind closest brown chicken; black furry blob; black chicken over big hen; top left blurry chicken; top left chicken; blurry chicken top left'
+ 'dark chicken closest to the fence'
+ 'chicken on right; a chicken to the right of another chicken; brown chicken with its head down; chicken by concrete head half down; hen on the right; R. CHICK.; right chicken'
+ 'The brown chicken in front of more chickens.; A brown chicken in a barnyard is looking at the camera suspiciously.; animal closest to the screen; chicken red face looking at you; chicken you can see its eye; left one; left front chicken']",[4 1 3 2],"[{'ref_id': 4, 'text': array(['Left blacl chicken', 'Left black chicken',
+        'black chicken behind closest brown chicken', 'black furry blob',
+        'black chicken over big hen', 'top left blurry chicken',
+        'top left chicken', 'blurry chicken top left'], dtype=object)}
+ {'ref_id': 1, 'text': array(['dark chicken closest to the fence'], dtype=object)}
+ {'ref_id': 3, 'text': array(['chicken on right', 'a chicken to the right of another chicken',
+        'brown chicken with its head down',
+        'chicken by concrete head half down', 'hen on the right',
+        'R. CHICK.', 'right chicken'], dtype=object)}
+ {'ref_id': 2, 'text': array(['The brown chicken in front of more chickens.',
+        'A brown chicken in a barnyard is looking at the camera suspiciously.',
+        'animal closest to the screen', 'chicken red face looking at you',
+        'chicken you can see its eye', 'left one', 'left front chicken'],
+       dtype=object)}                                                          ]","Closest: a lion
+----
+Mid Range: a chicken
+----
+Farthest: a chicken
+----
+"
+000000011282,image/image_38.jpg,"['Person behind the brown donut.; The person in the black sweater with the white zipper.; black shirt; black hoodie; headless person in black shirt and white stripes; BLACK SECTION OVER TOP OF DONUT'
+ 'A hand holding a chocolate covered doughnut with sprinkles; hand holding a chocolate donut; hand holding donut; HAND; hand holding a donut; hAND BELOW DONUT']",[1 2],"[{'ref_id': 1, 'text': array(['Person behind the brown donut.',
+        'The person in the black sweater with the white zipper.',
+        'black shirt', 'black hoodie',
+        'headless person in black shirt and white stripes',
+        'BLACK SECTION OVER TOP OF DONUT'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A hand holding a chocolate covered doughnut with sprinkles',
+        'hand holding a chocolate donut', 'hand holding donut', 'HAND',
+        'hand holding a donut', 'hAND BELOW DONUT'], dtype=object)}                        ]","Closest: a heart
+----
+Mid Range: a hand
+----
+Farthest: a chocolate frosted donut
+----
+"
+000000041730,image/image_39.jpg,"['The bento box with rice in it.; A bowl of rice and seaweed next to another bowl of broccolli  and sweet potato; bowl with white stuff and black stuff; rice and seaweed; rice bowl; top right bento box; top container; bowl in back'
+ 'lower tray; tray with more food; closest dish; closestcontainer; bottom dish; broccoli']",[2 3],"[{'ref_id': 2, 'text': array(['The bento box with rice in it.',
+        'A bowl of rice and seaweed next to another bowl of broccolli  and sweet potato',
+        'bowl with white stuff and black stuff', 'rice and seaweed',
+        'rice bowl', 'top right bento box', 'top container',
+        'bowl in back'], dtype=object)}
+ {'ref_id': 3, 'text': array(['lower tray', 'tray with more food', 'closest dish',
+        'closestcontainer', 'bottom dish', 'broccoli'], dtype=object)}            ]","Closest: a bowl
+----
+Mid Range: a purple star
+----
+Farthest: a lunch box
+----
+"
+000000005862,image/image_40.jpg,"['A dog with brown fur, with its head up, laying on a gray sheet.; Brown dog.; the brown dog; brown dog; Brown dog; right dog'
+ 'A white dog with a blue collar on a bed.; white dog laying on couch; white dog; white dog; white do; white doggy']",[1 2],"[{'ref_id': 1, 'text': array(['A dog with brown fur, with its head up, laying on a gray sheet.',
+        'Brown dog.', 'the brown dog', 'brown dog', 'Brown dog',
+        'right dog'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A white dog with a blue collar on a bed.',
+        'white dog laying on couch', 'white dog', 'white dog', 'white do',
+        'white doggy'], dtype=object)}                                    ]","Closest: a dog
+----
+Mid Range: a pillow
+----
+Farthest: a dog
+----
+"
+000000036729,image/image_41.jpg,['Chair without the curtain on it; Armchair to the left of the table.'],[2],"[{'ref_id': 2, 'text': array(['Chair without the curtain on it',
+        'Armchair to the left of the table.'], dtype=object)}   ]","Closest: a couch
+----
+Mid Range: a window
+----
+Farthest: a couch
+----
+"
+000000032533,image/image_42.jpg,['Motorcycle rider wearing dark clothing.; A police officer on a motorcycle.'],[3],"[{'ref_id': 3, 'text': array(['Motorcycle rider wearing dark clothing.',
+        'A police officer on a motorcycle.'], dtype=object)}            ]","Closest: a person on a motorcycle
+----
+Mid Range: a building
+----
+Farthest: a man
+----
+"
+000000002892,image/image_43.jpg,['a girl holding a donut; The woman who is wearing a blue shirt.'],[2],"[{'ref_id': 2, 'text': array(['a girl holding a donut', 'The woman who is wearing a blue shirt.'],
+       dtype=object)}                                                                             ]","Closest: a person
+----
+Mid Range: a person
+----
+Farthest: a heart
+----
+"
+000000014484,image/image_44.jpg,"['A green VW van.; The front of a green and white vw van; green; green; green; green bus; green van; green car'
+ 'A yellow Volkswagen van.; A yellow VW bus with license plate LPL 3IIP; Yellow; yellow; yellow; yello bug wagon; Yellow vw; yellow vw bus']",[1 2],"[{'ref_id': 1, 'text': array(['A green VW van.', 'The front of a green and white vw van',
+        'green', 'green', 'green', 'green bus', 'green van', 'green car'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['A yellow Volkswagen van.',
+        'A yellow VW bus with license plate LPL 3IIP', 'Yellow', 'yellow',
+        'yellow', 'yello bug wagon', 'Yellow vw', 'yellow vw bus'],
+       dtype=object)}                                                     ]","Closest: two cars
+----
+Mid Range: a VW camper van
+----
+Farthest: two VW campervans
+----
+"
+000000033991,image/image_45.jpg,"['A baby looks at an elephant.; a small child in an orange shirt; child, orange shirt; haha i like your descriptions! orange shirt; boy; baby; kid; boy orange'
+ 'white hat; hat only; woman; hat']",[2 1],"[{'ref_id': 2, 'text': array(['A baby looks at an elephant.', 'a small child in an orange shirt',
+        'child, orange shirt',
+        'haha i like your descriptions! orange shirt', 'boy', 'baby',
+        'kid', 'boy orange'], dtype=object)}
+ {'ref_id': 1, 'text': array(['white hat', 'hat only', 'woman', 'hat'], dtype=object)}]","Closest: a man
+----
+Mid Range: a woman
+----
+Farthest: a mother
+----
+"
+000000003178,image/image_46.jpg,"['Baby giraffe to the right of its mother.; Giraffe to the right of two other giraffes.; bent over giraffe with no head; giraffe that is not touching another giraffe; giraffe on right; giraffe on right; RIGHT BABY'
+ 'The mother giraffe in the middle; A tan and white giraffe with a small giraffe under it.; biggest; taller giraffe; LARGE GIRAFFE; Middle giraffe; GIRAFFE IN MIDDLE; biggest giraffe'
+ ""A baby giraffe nurses from its mother.; giraffe milking from its mom; small giraffe full pic; giraffe that's under the other one; left; giraffe left; on the left""]",[3 1 2],"[{'ref_id': 3, 'text': array(['Baby giraffe to the right of its mother.',
+        'Giraffe to the right of two other giraffes.',
+        'bent over giraffe with no head',
+        'giraffe that is not touching another giraffe', 'giraffe on right',
+        'giraffe on right', 'RIGHT BABY'], dtype=object)}
+ {'ref_id': 1, 'text': array(['The mother giraffe in the middle',
+        'A tan and white giraffe with a small giraffe under it.',
+        'biggest', 'taller giraffe', 'LARGE GIRAFFE', 'Middle giraffe',
+        'GIRAFFE IN MIDDLE', 'biggest giraffe'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A baby giraffe nurses from its mother.',
+        'giraffe milking from its mom', 'small giraffe full pic',
+        ""giraffe that's under the other one"", 'left', 'giraffe left',
+        'on the left'], dtype=object)}                                 ]","Closest: three giraffes
+----
+Mid Range: a giraffe
+----
+Farthest: a giraffe
+----
+"
+000000042308,image/image_47.jpg,['The person holding the snowboard; A man standing with a snowboard.'],[4],"[{'ref_id': 4, 'text': array(['The person holding the snowboard',
+        'A man standing with a snowboard.'], dtype=object)}      ]","Closest: a snowboarder
+----
+Mid Range: a person
+----
+Farthest: a mother
+----
+"
+000000036574,image/image_48.jpg,"['the wooden chair on the left in the row of three; The wooden chair closest to the table.'
+ 'A wooden chair sitting between two other wooden chairs on a patio.; A WOODEN CHAIR AT THE MIDDLE OF TWO OTHER WOODEN CHAIRS.']",[9 8],"[{'ref_id': 9, 'text': array(['the wooden chair on the left in the row of three',
+        'The wooden chair closest to the table.'], dtype=object)}
+ {'ref_id': 8, 'text': array(['A wooden chair sitting between two other wooden chairs on a patio.',
+        'A WOODEN CHAIR AT THE MIDDLE OF TWO OTHER WOODEN CHAIRS.'],
+       dtype=object)}                                                                              ]","Closest: a patio with chairs and an umbrella
+----
+Mid Range: a fence
+----
+Farthest: a sun lounger
+----
+"
+000000039812,image/image_49.jpg,"['A man wearing a tuxedo and standing between two women.; A man in a tux standing next to two woman for a picture; man; man facing; the guy; middle person'
+ 'A woman wearing a silver necklace.; Lady wearing a black dress standing with a man and another woman; brunette ho; brunette woman; girl in black; girl on left; lady on left'
+ 'blonde; blonde; blond; hi again  woman on the right; blonde girl; blond woman']",[4 1 3],"[{'ref_id': 4, 'text': array(['A man wearing a tuxedo and standing between two women.',
+        'A man in a tux standing next to two woman for a picture', 'man',
+        'man facing', 'the guy', 'middle person'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A woman wearing a silver necklace.',
+        'Lady wearing a black dress standing with a man and another woman',
+        'brunette ho', 'brunette woman', 'girl in black', 'girl on left',
+        'lady on left'], dtype=object)}
+ {'ref_id': 3, 'text': array(['blonde', 'blonde', 'blond', 'hi again  woman on the right',
+        'blonde girl', 'blond woman'], dtype=object)}                                     ]","Closest: a woman
+----
+Mid Range: a man
+----
+Farthest: a man
+----
+"
+000000007746,image/image_50.jpg,['Knife on a white plate.; A knife in the plate'],[4],"[{'ref_id': 4, 'text': array(['Knife on a white plate.', 'A knife in the plate'], dtype=object)}]","Closest: a smashed egg
+----
+Mid Range: a knife
+----
+Farthest: a cake
+----
+"
+000000030973,image/image_51.jpg,"['Girl in red shirt on top bunk bed staring into camera.; A person in a red shirt; Woman in red; high; red shirt; girl on top bunk; red'
+ 'The gray folded comforter on the ground.; The bottom floor and mattress the woman is laying on.'
+ 'girl in grey; Gray shirt; WOMEN GRAY SHIRT; girl under bed; bottom girl; lady bottom bunk'
+ 'bed above girl in grey; the mattress; bed with red shirt girl on it; mattress around boy on the bed; mattress; top bed']",[2 3 1 4],"[{'ref_id': 2, 'text': array(['Girl in red shirt on top bunk bed staring into camera.',
+        'A person in a red shirt', 'Woman in red', 'high', 'red shirt',
+        'girl on top bunk', 'red'], dtype=object)}
+ {'ref_id': 3, 'text': array(['The gray folded comforter on the ground.',
+        'The bottom floor and mattress the woman is laying on.'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['girl in grey', 'Gray shirt', 'WOMEN GRAY SHIRT', 'girl under bed',
+        'bottom girl', 'lady bottom bunk'], dtype=object)}
+ {'ref_id': 4, 'text': array(['bed above girl in grey', 'the mattress',
+        'bed with red shirt girl on it', 'mattress around boy on the bed',
+        'mattress', 'top bed'], dtype=object)}                            ]","Closest: a purple outline
+----
+Mid Range: a person
+----
+Farthest: a woman
+----
+"
+000000024689,image/image_52.jpg,"['A little girl with a blue dress is sitting at a table between an adult and a little boy; Little girl with blond hair wearing a blue dress looking down; young girl; blonde girl; young girl; girl in middle; middle kid blonde; little girl'
+ 'A woman in a black shirt holding a knife.; A woman in a black sweater preparing to eat.; woman; woman; lady; left woman; the lady'
+ 'A small boy wearing a plaid cap eating pizza.; Dirty blonde hair child wearing a plaid cap taking a bite of his pizza with his eyes closed.']",[2 3 1],"[{'ref_id': 2, 'text': array(['A little girl with a blue dress is sitting at a table between an adult and a little boy',
+        'Little girl with blond hair wearing a blue dress looking down',
+        'young girl', 'blonde girl', 'young girl', 'girl in middle',
+        'middle kid blonde', 'little girl'], dtype=object)}
+ {'ref_id': 3, 'text': array(['A woman in a black shirt holding a knife.',
+        'A woman in a black sweater preparing to eat.', 'woman', 'woman',
+        'lady', 'left woman', 'the lady'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A small boy wearing a plaid cap eating pizza.',
+        'Dirty blonde hair child wearing a plaid cap taking a bite of his pizza with his eyes closed.'],
+       dtype=object)}                                                                                   ]","Closest: a boy
+----
+Mid Range: a person
+----
+Farthest: a woman
+----
+"
+000000039159,image/image_53.jpg,"['a woman with a tank top on; A woman wearing brown or tan cargo pants.; shorter; girl in brown pants; woman in tank and pants; gray tank top; woman on right; right woman'
+ 'a woman wearing a white shirt and blue skirt holding a wine glass; A woman in a white shirt.; blue skirt woman; white shirt; white; woman left; skirted lady on left; left woman']",[1 2],"[{'ref_id': 1, 'text': array(['a woman with a tank top on',
+        'A woman wearing brown or tan cargo pants.', 'shorter',
+        'girl in brown pants', 'woman in tank and pants', 'gray tank top',
+        'woman on right', 'right woman'], dtype=object)}
+ {'ref_id': 2, 'text': array(['a woman wearing a white shirt and blue skirt holding a wine glass',
+        'A woman in a white shirt.', 'blue skirt woman', 'white shirt',
+        'white', 'woman left', 'skirted lady on left', 'left woman'],
+       dtype=object)}                                                                             ]","Closest: two people
+----
+Mid Range: a woman
+----
+Farthest: a couple
+----
+"
+000000017962,image/image_54.jpg,['A red color backpack; A red backpack is worn by a person going skiing.'],[3],"[{'ref_id': 3, 'text': array(['A red color backpack',
+        'A red backpack is worn by a person going skiing.'], dtype=object)}]","Closest: a person
+----
+Mid Range: a person
+----
+Farthest: a skier
+----
+"
+000000011673,image/image_55.jpg,['The black and yellow mercedes lift.; Yellow crane.'],[3],"[{'ref_id': 3, 'text': array(['The black and yellow mercedes lift.', 'Yellow crane.'],
+       dtype=object)}                                                                 ]","Closest: a crane
+----
+Mid Range: a black background
+----
+Farthest: a column
+----
+"
+000000001407,image/image_56.jpg,"['A man in a black suit sitting; The man to the far left of the guy in the wheelchair'
+ 'A man playing tennis reaching far back to serve.; The tennis player about to hit the ball'
+ 'The man in the wheelchair; the man in the wheelchair watching the tennis game']",[4 1 2],"[{'ref_id': 4, 'text': array(['A man in a black suit sitting',
+        'The man to the far left of the guy in the wheelchair'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['A man playing tennis reaching far back to serve.',
+        'The tennis player about to hit the ball'], dtype=object)}
+ {'ref_id': 2, 'text': array(['The man in the wheelchair',
+        'the man in the wheelchair watching the tennis game'], dtype=object)}]","Closest: a golfer
+----
+Mid Range: a person in a wheelchair
+----
+Farthest: a tennis player
+----
+"
+000000032105,image/image_57.jpg,"['blue bag with a D logo; A duffel bag with a green hat on top.'
+ 'A black suitcase with a red tie on the zipper stands beside an identical black suitcase.; a black suitcase touching a blue and black bag with a green hat on top; suitcase by blue; suitcase with side hadle showing; tes; back blk luggage; black suitcase center'
+ 'closest black suitcase; black bag by green bag; black bag close to green bag; blackk right; right black bag; black case']",[2 4 3],"[{'ref_id': 2, 'text': array(['blue bag with a D logo', 'A duffel bag with a green hat on top.'],
+       dtype=object)}
+ {'ref_id': 4, 'text': array(['A black suitcase with a red tie on the zipper stands beside an identical black suitcase.',
+        'a black suitcase touching a blue and black bag with a green hat on top',
+        'suitcase by blue', 'suitcase with side hadle showing', 'tes',
+        'back blk luggage', 'black suitcase center'], dtype=object)}
+ {'ref_id': 3, 'text': array(['closest black suitcase', 'black bag by green bag',
+        'black bag close to green bag', 'blackk right', 'right black bag',
+        'black case'], dtype=object)}                                            ]","Closest: three different types of bags
+----
+Mid Range: a suitcase
+----
+Farthest: various pieces of paper
+----
+"
+000000012824,image/image_58.jpg,['Sheep is running in the forest; SHEEP THAT ISNT BLURRY'],[1],"[{'ref_id': 1, 'text': array(['Sheep is running in the forest', 'SHEEP THAT ISNT BLURRY'],
+       dtype=object)}                                                                     ]","Closest: a pig
+----
+Mid Range: a man
+----
+Farthest: a car
+----
+"
+000000025455,image/image_59.jpg,"['the man catching the ball on home base; catcher and umpire'
+ 'The batter with the blue helmet; A baseball player dodging an incoming ball']",[2 1],"[{'ref_id': 2, 'text': array(['the man catching the ball on home base', 'catcher and umpire'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['The batter with the blue helmet',
+        'A baseball player dodging an incoming ball'], dtype=object)}]","Closest: a baseball player
+----
+Mid Range: a sports injury
+----
+Farthest: a baseball player
+----
+"
+000000007393,image/image_60.jpg,"['A large giraffe looking toward the camera; A giraffe that has its face visible.; nearest giraffe; one looking at you; looking at camera; giraffe front right; right gir; giraffe on right'
+ ""the back profile of a giraffe; giaraafe standing tall; giraffe's rear; taller guy; tallest; tallest giraffe; tallest giraffe""]",[1 2],"[{'ref_id': 1, 'text': array(['A large giraffe looking toward the camera',
+        'A giraffe that has its face visible.', 'nearest giraffe',
+        'one looking at you', 'looking at camera', 'giraffe front right',
+        'right gir', 'giraffe on right'], dtype=object)}
+ {'ref_id': 2, 'text': array(['the back profile of a giraffe', 'giaraafe standing tall',
+        ""giraffe's rear"", 'taller guy', 'tallest', 'tallest giraffe',
+        'tallest giraffe'], dtype=object)}                                              ]","Closest: a giraffe
+----
+Mid Range: giraffes
+----
+Farthest: a giraffe
+----
+"
+000000027149,image/image_61.jpg,"['A person in a white shirt playing the wii.; person closest to front; white shirt; whte shirt; women in white shirt; the person closest to us.. white shirt!!!; guy far left, cut out; front blurr person'
+ 'ark man; person behind person; furthest player; thethe darker man in back; man dark area; top part of man']",[2 1],"[{'ref_id': 2, 'text': array(['A person in a white shirt playing the wii.',
+        'person closest to front', 'white shirt', 'whte shirt',
+        'women in white shirt',
+        'the person closest to us.. white shirt!!!',
+        'guy far left, cut out', 'front blurr person'], dtype=object)}
+ {'ref_id': 1, 'text': array(['ark man', 'person behind person', 'furthest player',
+        'thethe darker man in back', 'man dark area', 'top part of man'],
+       dtype=object)}                                                              ]","Closest: a man
+----
+Mid Range: a man
+----
+Farthest: two people
+----
+"
+000000028154,image/image_62.jpg,"['lady on left; A woman in a black top holding a video game remote.; black and white striped shirt; girl in black shirt; black; girl in beetle juice shirt; left girl; woamn on left'
+ ""The legs of a person sitting on the couch.; the legs of the person who isn't in the shot.; the knees that are the only part of the person you can see; legs with no body; legs, no body; leg doesnt show person; bottom right legs; YES""
+ 'A girl wearing earrings and sitting in the middle of the couch is playing Wii.; A woman sitting between two other people with a pink shirt playing a video game.; pink shirt; the girl with the gray skirt and white shirt; white shirt; pink tank top; pink top; highest food']",[3 1 2],"[{'ref_id': 3, 'text': array(['lady on left',
+        'A woman in a black top holding a video game remote.',
+        'black and white striped shirt', 'girl in black shirt', 'black',
+        'girl in beetle juice shirt', 'left girl', 'woamn on left'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['The legs of a person sitting on the couch.',
+        ""the legs of the person who isn't in the shot."",
+        'the knees that are the only part of the person you can see',
+        'legs with no body', 'legs, no body', 'leg doesnt show person',
+        'bottom right legs', 'YES'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A girl wearing earrings and sitting in the middle of the couch is playing Wii.',
+        'A woman sitting between two other people with a pink shirt playing a video game.',
+        'pink shirt', 'the girl with the gray skirt and white shirt',
+        'white shirt', 'pink tank top', 'pink top', 'highest food'],
+       dtype=object)}                                                                                          ]","Closest: a woman
+----
+Mid Range: a woman's legs
+----
+Farthest: a woman
+----
+"
+000000034680,image/image_63.jpg,['a man wearing a blue tshirt & catch the plate; A jumping boy in a blue shirt and khakis.'],[2],"[{'ref_id': 2, 'text': array(['a man wearing a blue tshirt & catch the plate',
+        'A jumping boy in a blue shirt and khakis.'], dtype=object)}          ]","Closest: two people playing frisbee on a field
+----
+Mid Range: a person
+----
+Farthest: two men
+----
+"
+000000018473,image/image_64.jpg,['a sofa with pink and white stripes with a white/off-white pillow; a pink and white striped sofa with soft pastel pillow and a brown dog chair with red floral rug'],[3],"[{'ref_id': 3, 'text': array(['a sofa with pink and white stripes with a white/off-white pillow',
+        'a pink and white striped sofa with soft pastel pillow and a brown dog chair with red floral rug'],
+       dtype=object)}                                                                                      ]","Closest: a pink and white striped towel
+----
+Mid Range: a fireplace
+----
+Farthest: a fireplace
+----
+"
+000000028988,image/image_65.jpg,"['A blurry part of an animal that is not completely visible.; ear of an animal not in the picture; corner of cow barely visible; this orangish object in the immediate foreground; its blurry; barely seen animal; bottom left corner whatever that is; click the bottom left corner, brown blurry thing; lower left corner'
+ 'cow in rear; cow farthest away; cow farther away; cow on left; left cow; cow on the left'
+ 'closest cow; cow next to empty food tin; Brown cow; front, brown cow; front cow; cow closest to us']",[2 1 3],"[{'ref_id': 2, 'text': array(['A blurry part of an animal that is not completely visible.',
+        'ear of an animal not in the picture',
+        'corner of cow barely visible',
+        'this orangish object in the immediate foreground; its blurry',
+        'barely seen animal', 'bottom left corner whatever that is',
+        'click the bottom left corner, brown blurry thing',
+        'lower left corner'], dtype=object)}
+ {'ref_id': 1, 'text': array(['cow in rear', 'cow farthest away', 'cow farther away',
+        'cow on left', 'left cow', 'cow on the left'], dtype=object)}
+ {'ref_id': 3, 'text': array(['closest cow', 'cow next to empty food tin', 'Brown cow',
+        'front, brown cow', 'front cow', 'cow closest to us'], dtype=object)}          ]","Closest: a cow
+----
+Mid Range: a cow
+----
+Farthest: an elephant
+----
+"
+000000030519,image/image_66.jpg,['The orange truck and trailor closest to the orange box truck'],[2],"[{'ref_id': 2, 'text': array(['The orange truck and trailor closest to the orange box truck'],
+       dtype=object)}                                                                         ]","Closest: trucks
+----
+Mid Range: a wooden table
+----
+Farthest: a red truck
+----
+"
+000000029962,image/image_67.jpg,"['a black umbrella, being held by a person in jeans.'
+ 'A woman in a skirt under an umbrella; A girl in a skirt with a backpack on her back.'
+ 'the pants of the male; someone in black holding an umbrella'
+ 'a pair of black umbrellas being held by a couple, shielding their faces; the umbrella closest to the camera']",[6 1 2 7],"[{'ref_id': 6, 'text': array(['a black umbrella, being held by a person in jeans.'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A woman in a skirt under an umbrella',
+        'A girl in a skirt with a backpack on her back.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['the pants of the male', 'someone in black holding an umbrella'],
+       dtype=object)}
+ {'ref_id': 7, 'text': array(['a pair of black umbrellas being held by a couple, shielding their faces',
+        'the umbrella closest to the camera'], dtype=object)}                                           ]","Closest: a person walking down a street with an umbrella
+----
+Mid Range: a black umbrella
+----
+Farthest: a woman
+----
+"
+000000039580,image/image_68.jpg,['Woman wearing white dress with flowers standing near barricade'],[1],"[{'ref_id': 1, 'text': array(['Woman wearing white dress with flowers standing near barricade'],
+       dtype=object)}                                                                           ]","Closest: people walking with umbrellas
+----
+Mid Range: a man
+----
+Farthest: two women
+----
+"
+000000020291,image/image_69.jpg,['The clear wine glass with the lower level of wine; central wineglass on table'],[4],"[{'ref_id': 4, 'text': array(['The clear wine glass with the lower level of wine',
+        'central wineglass on table'], dtype=object)}                             ]","Closest: a man
+----
+Mid Range: a man
+----
+Farthest: a man drinking a beer
+----
+"
+000000033581,image/image_70.jpg,['the rightmost spoon' 'The spoon to the left of the cup'],[3 4],"[{'ref_id': 3, 'text': array(['the rightmost spoon'], dtype=object)}
+ {'ref_id': 4, 'text': array(['The spoon to the left of the cup'], dtype=object)}]","Closest: a cup
+----
+Mid Range: a white silhouette of a person
+----
+Farthest: a cup
+----
+"
+000000001994,image/image_71.jpg,"['the back of a plaid shirt; The back side of a white and blue striped shirt; plaid robe(?) mostly out of frame, near dude with sandals; person next to camera, can only see shirt; sleeve on extreme right; right shirt; right all you see is shirt'
+ 'The guy with a camera.; man with vertical striped shirt; man wearing shorts; camera is around his neck; shorts; man on right with camera; old camera around neck; man in sandals'
+ ""a man wearing checked shirt bearing goblet; man's plaid shirt and hand, the parts not shown behind the wine glass; the person holding the wine glass; PLAID SHIRT ON EDGE WITH WINE; left edge, plaid shirt; plaid shirt left of glass""]",[2 3 1],"[{'ref_id': 2, 'text': array(['the back of a plaid shirt',
+        'The back side of a white and blue striped shirt',
+        'plaid robe(?) mostly out of frame, near dude with sandals',
+        'person next to camera, can only see shirt',
+        'sleeve on extreme right', 'right shirt',
+        'right all you see is shirt'], dtype=object)}
+ {'ref_id': 3, 'text': array(['The guy with a camera.', 'man with vertical striped shirt',
+        'man wearing shorts', 'camera is around his neck', 'shorts',
+        'man on right with camera', 'old camera around neck',
+        'man in sandals'], dtype=object)}
+ {'ref_id': 1, 'text': array(['a man wearing checked shirt bearing goblet',
+        ""man's plaid shirt and hand, the parts not shown behind the wine glass"",
+        'the person holding the wine glass',
+        'PLAID SHIRT ON EDGE WITH WINE', 'left edge, plaid shirt',
+        'plaid shirt left of glass'], dtype=object)}                            ]","Closest: a man
+----
+Mid Range: a wine glass
+----
+Farthest: a man
+----
+"
+000000031812,image/image_72.jpg,"['The wooden chair on the right.; A wooden chair leg in the background of the photo.'
+ 'tan cake with darker frosting; cheesecake almost halfway eaten; LIGHT BROWN COVERD CAKE; cake upper right; tan cake at upper rt'
+ 'white frosting; CAKE WITH CHERRIES; white frosting; cake with cherries on top; sprinkle at left; partial cake far left, white'
+ 'brown cake with pieces missing; chocolate; chocolate; main choclo; cake in lower middle']",[9 5 6 4],"[{'ref_id': 9, 'text': array(['The wooden chair on the right.',
+        'A wooden chair leg in the background of the photo.'], dtype=object)}
+ {'ref_id': 5, 'text': array(['tan cake with darker frosting', 'cheesecake almost halfway eaten',
+        'LIGHT BROWN COVERD CAKE', 'cake upper right',
+        'tan cake at upper rt'], dtype=object)}
+ {'ref_id': 6, 'text': array(['white frosting', 'CAKE WITH CHERRIES', 'white frosting',
+        'cake with cherries on top', 'sprinkle at left',
+        'partial cake far left, white'], dtype=object)}
+ {'ref_id': 4, 'text': array(['brown cake with pieces missing', 'chocolate', 'chocolate',
+        'main choclo', 'cake in lower middle'], dtype=object)}                           ]","Closest: a cake
+----
+Mid Range: a person
+----
+Farthest: a cake
+----
+"
+000000035322,image/image_73.jpg,"['a potted tree leaning to the right.; Trees in the back of a truck.; trees tilted; palm trees; gren tree leaves; palm tree on truck; first tree, right side; tree second from left'
+ 'palm tree closest to the woman on bike; leaves directly over the lady on the bike; lowest palm frond closest to our score; palm tree end; first palm tree close to woman on bike']",[10  9],"[{'ref_id': 10, 'text': array(['a potted tree leaning to the right.',
+        'Trees in the back of a truck.', 'trees tilted', 'palm trees',
+        'gren tree leaves', 'palm tree on truck', 'first tree, right side',
+        'tree second from left'], dtype=object)}
+ {'ref_id': 9, 'text': array(['palm tree closest to the woman on bike',
+        'leaves directly over the lady on the bike',
+        'lowest palm frond closest to our score', 'palm tree end',
+        'first palm tree close to woman on bike'], dtype=object)}      ]","Closest: a truck
+----
+Mid Range: a man
+----
+Farthest: a car
+----
+"
+000000030535,image/image_74.jpg,['The giraffee eating leaves near zebra; The giraffe who is behind the zebra'],[3],"[{'ref_id': 3, 'text': array(['The giraffee eating leaves near zebra',
+        'The giraffe who is behind the zebra'], dtype=object)}        ]","Closest: a giraffe
+----
+Mid Range: a flying leopard
+----
+Farthest: a giraffe
+----
+"
+000000011690,image/image_75.jpg,['The motorcycle the man is riding.; The red motor cycle.'],[11],"[{'ref_id': 11, 'text': array(['The motorcycle the man is riding.', 'The red motor cycle.'],
+       dtype=object)}                                                                       ]","Closest: a man on a motorcycle
+----
+Mid Range: a car window
+----
+Farthest: a man
+----
+"
+000000028281,image/image_76.jpg,"['A vacant chair with its back to a woman who looks prepared to blow out candles on a birthday cake.; a blackcolour chair; Black chair; back of chair; black chair; computer far right middle black; Chair to the right of girl'
+ 'A chair which is girl sitting; A chair on which a girl is sitting; chair woman is sitting on; chair shes on; chair she sitting on; chair she sits in; chair legs?; the chair she is sitting on']",[5 4],"[{'ref_id': 5, 'text': array(['A vacant chair with its back to a woman who looks prepared to blow out candles on a birthday cake.',
+        'a blackcolour chair', 'Black chair', 'back of chair',
+        'black chair', 'computer far right middle black',
+        'Chair to the right of girl'], dtype=object)}
+ {'ref_id': 4, 'text': array(['A chair which is girl sitting',
+        'A chair on which a girl is sitting', 'chair woman is sitting on',
+        'chair shes on', 'chair she sitting on', 'chair she sits in',
+        'chair legs?', 'the chair she is sitting on'], dtype=object)}     ]","Closest: a table
+----
+Mid Range: a person sitting in a chair in front of a screen
+----
+Farthest: black hat
+----
+"
+000000024404,image/image_77.jpg,"['The zebra with no greenery covering part of him or her.; Larger zebra on left.; zebra with ears fown; zebra that is less visible; zebra  only face and neck visible; zebra closest to us; zebra close to the bamboo on the left; zebra head closest to the front'
+ 'zebra in the back side; The zebra in the back; zebra partially obscured by leaves; zebra in background under tree branch; zebra under branch; top zeb; Top; back zebra']",[1 2],"[{'ref_id': 1, 'text': array(['The zebra with no greenery covering part of him or her.',
+        'Larger zebra on left.', 'zebra with ears fown',
+        'zebra that is less visible', 'zebra  only face and neck visible',
+        'zebra closest to us', 'zebra close to the bamboo on the left',
+        'zebra head closest to the front'], dtype=object)}
+ {'ref_id': 2, 'text': array(['zebra in the back side', 'The zebra in the back',
+        'zebra partially obscured by leaves',
+        'zebra in background under tree branch', 'zebra under branch',
+        'top zeb', 'Top', 'back zebra'], dtype=object)}                         ]","Closest: a zebra butterfly
+----
+Mid Range: a zebra
+----
+Farthest: a zebra
+----
+"
+000000018093,image/image_78.jpg,"['the inside of an oven; The inside of the oven.; the oven walls; virtually anywhere around the perimeter except 7 pm; oven walls; oven wall right edge'
+ 'The door of the oven; The oven door.; oven door; oven door; oven lid']",[6 5],"[{'ref_id': 6, 'text': array(['the inside of an oven', 'The inside of the oven.',
+        'the oven walls',
+        'virtually anywhere around the perimeter except 7 pm',
+        'oven walls', 'oven wall right edge'], dtype=object)}
+ {'ref_id': 5, 'text': array(['The door of the oven', 'The oven door.', 'oven door', 'oven door',
+        'oven lid'], dtype=object)}                                                              ]","Closest: a person
+----
+Mid Range: a woman
+----
+Farthest: a person
+----
+"
+000000037122,image/image_79.jpg,"['A PIGEON FLYING SECOND POSITION WITH ANOTHER ONE; A bird with a white wing.'
+ 'A bird flying to the right of another bird.; the bird on the right']",[2 1],"[{'ref_id': 2, 'text': array(['A PIGEON FLYING SECOND POSITION WITH ANOTHER ONE',
+        'A bird with a white wing.'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A bird flying to the right of another bird.',
+        'the bird on the right'], dtype=object)}                            ]","Closest: two birds
+----
+Mid Range: a bird flying in the dark
+----
+Farthest: a bird
+----
+"
+000000008300,image/image_80.jpg,"['The two giraffe necks togther eating.; shorter giraffe neck and neck with taller one; giraffe between giraffes; giraffe on left little one; giraffe closest to camera; giraffe second from the left'
+ 'the tallest giraffe on the left; biggest giraffe; tallest to the basket; TALLEST GIRAFFE; left gif; far left gir; tallest giraffe on left'
+ 'A giraffe standing behind three other giraffes, facing the opposite direction.'
+ 'the third giraffe from the left; second giraffe from the right; leading giraffe; closest giraffe; giraffe face at 3; giraffe in right most visible; second giraffe from right']",[4 2 3 1],"[{'ref_id': 4, 'text': array(['The two giraffe necks togther eating.',
+        'shorter giraffe neck and neck with taller one',
+        'giraffe between giraffes', 'giraffe on left little one',
+        'giraffe closest to camera', 'giraffe second from the left'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['the tallest giraffe on the left', 'biggest giraffe',
+        'tallest to the basket', 'TALLEST GIRAFFE', 'left gif',
+        'far left gir', 'tallest giraffe on left'], dtype=object)}
+ {'ref_id': 3, 'text': array(['A giraffe standing behind three other giraffes, facing the opposite direction.'],
+       dtype=object)}
+ {'ref_id': 1, 'text': array(['the third giraffe from the left', 'second giraffe from the right',
+        'leading giraffe', 'closest giraffe', 'giraffe face at 3',
+        'giraffe in right most visible', 'second giraffe from right'],
+       dtype=object)}                                                                            ]","Closest: a giraffe
+----
+Mid Range: a man
+----
+Farthest: giraffes
+----
+"
+000000015809,image/image_81.jpg,"['blue Yarn bear on the right; A knit bear figure to the right of a duplicate.; taller bear; bigger fuller; Larger bear; character on the right; RIGHT TOY'
+ 'Teddy bear with fewer  strings; bear with no extra strings; smaller bear; left side shape of bear; Left bear; left']",[2 1],"[{'ref_id': 2, 'text': array(['blue Yarn bear on the right',
+        'A knit bear figure to the right of a duplicate.', 'taller bear',
+        'bigger fuller', 'Larger bear', 'character on the right',
+        'RIGHT TOY'], dtype=object)}
+ {'ref_id': 1, 'text': array(['Teddy bear with fewer  strings', 'bear with no extra strings',
+        'smaller bear', 'left side shape of bear', 'Left bear', 'left'],
+       dtype=object)}                                                                        ]","Closest: a black and white abstract painting
+----
+Mid Range: broken egg shells
+----
+Farthest: two abstract figures
+----
+"
+000000011426,image/image_82.jpg,"['the blue van.; blue van'
+ 'A black motorcycle on green grass near a sign that reads 141 parked near other vehicles.; the black motorcycle in front']",[22 18],"[{'ref_id': 22, 'text': array(['the blue van.', 'blue van'], dtype=object)}
+ {'ref_id': 18, 'text': array(['A black motorcycle on green grass near a sign that reads 141 parked near other vehicles.',
+        'the black motorcycle in front'], dtype=object)}                                                                  ]","Closest: a motorcycle
+----
+Mid Range: a truck
+----
+Farthest: a motorcycle
+----
+"
+000000001261,image/image_83.jpg,"['A glass bowl of food that is sitting on a whicker circle holder; bowl on right'
+ 'A plate with fruit on it behind two other dishes.; The plate holding the fruit']",[2 1],"[{'ref_id': 2, 'text': array(['A glass bowl of food that is sitting on a whicker circle holder',
+        'bowl on right'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A plate with fruit on it behind two other dishes.',
+        'The plate holding the fruit'], dtype=object)}                            ]","Closest: a pomegranate
+----
+Mid Range: a shadow of the person
+----
+Farthest: a plate
+----
+"
+000000022287,image/image_84.jpg,"[""A zebra which is near the giraffe; Zebra standing next to a giraffe; baby nursing #don'tquit; 2nd zebra; zebra closest to giraffe; baby zebra in the middle; right zebra; zebra closer to graffe""
+ 'A zebra sniffs the rear of another zebra.; A black and white zebra standing in the dirt next to another zebra and a giaraff.; small zebra closer to camera; half zebra; zebra closes to you; zebra on the left; zebra on left; L zebra']",[2 1],"[{'ref_id': 2, 'text': array(['A zebra which is near the giraffe',
+        'Zebra standing next to a giraffe', ""baby nursing #don'tquit"",
+        '2nd zebra', 'zebra closest to giraffe',
+        'baby zebra in the middle', 'right zebra',
+        'zebra closer to graffe'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A zebra sniffs the rear of another zebra.',
+        'A black and white zebra standing in the dirt next to another zebra and a giaraff.',
+        'small zebra closer to camera', 'half zebra',
+        'zebra closes to you', 'zebra on the left', 'zebra on left',
+        'L zebra'], dtype=object)}                                                          ]","Closest: a giraffe
+----
+Mid Range: a giraffe
+----
+Farthest: a giraffe
+----
+"
+000000032818,image/image_85.jpg,['The bench closest to the palm tree and on a concrete pedestal.; a bench in the shore near another bench'],[9],"[{'ref_id': 9, 'text': array(['The bench closest to the palm tree and on a concrete pedestal.',
+        'a bench in the shore near another bench'], dtype=object)}                             ]","Closest: a broom
+----
+Mid Range: two people
+----
+Farthest: a surfboard
+----
+"
+000000020188,image/image_86.jpg,"['A man holding a purple hat sitting on a skateboard.; man sitting on skateboard; sitting; dude; guy; man in the center with earrings and beard; MAN; Man, sitting'
+ 'A MAN IS STANDING; A MAN IS STANDING WEARING A BLUE JEANS; person in background, partially visible; person cutoff; man standing; blue backpack left of skakter dude head; man at edge; guy on left side cut off']",[1 2],"[{'ref_id': 1, 'text': array(['A man holding a purple hat sitting on a skateboard.',
+        'man sitting on skateboard', 'sitting', 'dude', 'guy',
+        'man in the center with earrings and beard', 'MAN', 'Man, sitting'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['A MAN IS STANDING', 'A MAN IS STANDING WEARING A BLUE JEANS',
+        'person in background, partially visible', 'person cutoff',
+        'man standing', 'blue backpack left of skakter dude head',
+        'man at edge', 'guy on left side cut off'], dtype=object)}                          ]","Closest: a person
+----
+Mid Range: a man
+----
+Farthest: Liam Gallagher
+----
+"
+000000007504,image/image_87.jpg,"['A clock on a wall calling the time in Bac Kinh as 8:30; The clock for bac kinh; BAC KINH clock face; bac kinn clock; BAC KINH clock; clock on right; Clock above the sign BAC KINN (FAR RIGHT); right clock'
+ 'A round wall clock showing London time next to two other clocks showing times for other cities.; clock on wall showing 12:21; luandon clock; luan don clock; luan don lock; clock left; left clock; left clock'
+ 'ha noi clock; HA NOI Clock; central clock; middle clock; middle clock']",[1 3 2],"[{'ref_id': 1, 'text': array(['A clock on a wall calling the time in Bac Kinh as 8:30',
+        'The clock for bac kinh', 'BAC KINH clock face', 'bac kinn clock',
+        'BAC KINH clock', 'clock on right',
+        'Clock above the sign BAC KINN (FAR RIGHT)', 'right clock'],
+       dtype=object)}
+ {'ref_id': 3, 'text': array(['A round wall clock showing London time next to two other clocks showing times for other cities.',
+        'clock on wall showing 12:21', 'luandon clock', 'luan don clock',
+        'luan don lock', 'clock left', 'left clock', 'left clock'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['ha noi clock', 'HA NOI Clock', 'central clock', 'middle clock',
+        'middle clock'], dtype=object)}                                                       ]","Closest: a clock
+----
+Mid Range: a man
+----
+Farthest: a clock
+----
+"
+000000027070,image/image_88.jpg,"['The man whipping the elephant.; man in camo' 'the smaller elephant'
+ 'An elephant with a long trunk stands next to another elephant.; biggest elephant; elephant near camo guy walking towards us; big elephant; mostly visible; left elephant; left elephant; larger elephant, left']",[1 4 3],"[{'ref_id': 1, 'text': array(['The man whipping the elephant.', 'man in camo'], dtype=object)}
+ {'ref_id': 4, 'text': array(['the smaller elephant'], dtype=object)}
+ {'ref_id': 3, 'text': array(['An elephant with a long trunk stands next to another elephant.',
+        'biggest elephant', 'elephant near camo guy walking towards us',
+        'big elephant', 'mostly visible', 'left elephant', 'left elephant',
+        'larger elephant, left'], dtype=object)}                                               ]","Closest: a woman
+----
+Mid Range: a car
+----
+Farthest: a man
+----
+"
+000000016069,image/image_89.jpg,['The person in the rain slicker crossing the bridge.; A woman in a raincoat walking by the water.'],[1],"[{'ref_id': 1, 'text': array(['The person in the rain slicker crossing the bridge.',
+        'A woman in a raincoat walking by the water.'], dtype=object)}              ]","Closest: a person walking on a boat
+----
+Mid Range: a boat
+----
+Farthest: a man
+----
+"
+000000035945,image/image_90.jpg,"['A green chair with a boy in red sitting on it; green chair the child is sitting in'
+ 'A green, unoccupied chair near a colorful fire hydrant.; An empty green chair between a fire hydrant and a seated man'
+ 'Man sitting with legs crossed; a man  was sitting on chair'
+ 'the boy wearing a maroon shirt and blue jeans; A little boy in a red sweatshirt sitting at a table with two other, older, people.']",[10  9  3  2],"[{'ref_id': 10, 'text': array(['A green chair with a boy in red sitting on it',
+        'green chair the child is sitting in'], dtype=object)}
+ {'ref_id': 9, 'text': array(['A green, unoccupied chair near a colorful fire hydrant.',
+        'An empty green chair between a fire hydrant and a seated man'],
+       dtype=object)}
+ {'ref_id': 3, 'text': array(['Man sitting with legs crossed', 'a man  was sitting on chair'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['the boy wearing a maroon shirt and blue jeans',
+        'A little boy in a red sweatshirt sitting at a table with two other, older, people.'],
+       dtype=object)}                                                                         ]","Closest: a chair
+----
+Mid Range: a street lamp
+----
+Farthest: a red trash can
+----
+"
+000000016836,image/image_91.jpg,"['A square doughnut lying partially under a round doughnut.; This is a square donut with nuts and glaze.'
+ 'A round donut.; The round donut; donut closer to you; round donut; round donut; round doughnut; big donut near us']",[1 2],"[{'ref_id': 1, 'text': array(['A square doughnut lying partially under a round doughnut.',
+        'This is a square donut with nuts and glaze.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['A round donut.', 'The round donut', 'donut closer to you',
+        'round donut', 'round donut', 'round doughnut',
+        'big donut near us'], dtype=object)}                                             ]","Closest: a vinyl record
+----
+Mid Range: a donut
+----
+Farthest: a squid
+----
+"
+000000037169,image/image_92.jpg,['Red bus on a road; A single story red bus number 272.'],[13],"[{'ref_id': 13, 'text': array(['Red bus on a road', 'A single story red bus number 272.'],
+       dtype=object)}                                                                     ]","Closest: a bus
+----
+Mid Range: a wall
+----
+Farthest: a town centre
+----
+"
+000000038552,image/image_93.jpg,"['A sheep in the middle of two other sheep.; A small sheep standing between two other sheep.; lamb number two; not the one eating grass but the one next to it; sheep closer to eating sheep; middle animal; middle sheep'
+ 'Lamb in a meadow grazing next to two other lambs.; A sheep eating grass; sheep looking down; head down; im eating grass; sheep with head down; right sheep; sheep far right'
+ 'tallest; closest in corner; closest to tree; left animal; left goat']",[1 2 3],"[{'ref_id': 1, 'text': array(['A sheep in the middle of two other sheep.',
+        'A small sheep standing between two other sheep.',
+        'lamb number two',
+        'not the one eating grass but the one next to it',
+        'sheep closer to eating sheep', 'middle animal', 'middle sheep'],
+       dtype=object)}
+ {'ref_id': 2, 'text': array(['Lamb in a meadow grazing next to two other lambs.',
+        'A sheep eating grass', 'sheep looking down', 'head down',
+        'im eating grass', 'sheep with head down', 'right sheep',
+        'sheep far right'], dtype=object)}
+ {'ref_id': 3, 'text': array(['tallest', 'closest in corner', 'closest to tree', 'left animal',
+        'left goat'], dtype=object)}                                                           ]","Closest: sheep
+----
+Mid Range: a sheep
+----
+Farthest: two sheep
+----
+"
+000000018819,image/image_94.jpg,['mouthwash; A plastic bottle of blue mouth wash on a sink in the bathroom.'],[2],"[{'ref_id': 2, 'text': array(['mouthwash',
+        'A plastic bottle of blue mouth wash on a sink in the bathroom.'],
+       dtype=object)}                                                     ]","Closest: a cat
+----
+Mid Range: a cat
+----
+Farthest: a cat
+----
+"
+000000037862,image/image_95.jpg,['the little dog with black fur; smallest; bottom dawg; dog in front'],[2],"[{'ref_id': 2, 'text': array(['the little dog with black fur', 'smallest', 'bottom dawg',
+        'dog in front'], dtype=object)}                                                  ]","Closest: three cats
+----
+Mid Range: a guitar
+----
+Farthest: the floor
+----
+"
+000000011774,image/image_96.jpg,"['man holding two plates; Short guy with smores; dark shirt; dude with grey hair; darker shirt guy; Man left side; man on left'
+ 'A man in a red shirt.; A man in a red shirt eating sweets with his friend; red shirt; Red shirt; red shirt; guy in red; ugly red shirt']",[2 1],"[{'ref_id': 2, 'text': array(['man holding two plates', 'Short guy with smores', 'dark shirt',
+        'dude with grey hair', 'darker shirt guy', 'Man left side',
+        'man on left'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A man in a red shirt.',
+        'A man in a red shirt eating sweets with his friend', 'red shirt',
+        'Red shirt', 'red shirt', 'guy in red', 'ugly red shirt'],
+       dtype=object)}                                                     ]","Closest: two men
+----
+Mid Range: a couple
+----
+Farthest: two people
+----
+"
+000000007852,image/image_97.jpg,"['The old school fire truck with a blue engine top.; An antique fire truck with a ladder on top of it.'
+ 'firetruck in the right hand picture; The red fire truck furthest to the right.']",[1 2],"[{'ref_id': 1, 'text': array(['The old school fire truck with a blue engine top.',
+        'An antique fire truck with a ladder on top of it.'], dtype=object)}
+ {'ref_id': 2, 'text': array(['firetruck in the right hand picture',
+        'The red fire truck furthest to the right.'], dtype=object)}]","Closest: a red tractor
+----
+Mid Range: a black shadow
+----
+Farthest: a fire truck
+----
+"
+000000002411,image/image_98.jpg,"['The white piece of cake; The slice of cake on the left.; white cake; Lighter colored slice of cake.; White cake.; cake on left; light cake'
+ 'A piece of chocolate layer cake on a floral patterned dish.; Chocolate dessert cake on a plate.; the chocolate slice; chocolate dessert; dark slice; chocolate cake; dessert on right; the dark chocolate cake on a plate']",[5 4],"[{'ref_id': 5, 'text': array(['The white piece of cake', 'The slice of cake on the left.',
+        'white cake', 'Lighter colored slice of cake.', 'White cake.',
+        'cake on left', 'light cake'], dtype=object)}
+ {'ref_id': 4, 'text': array(['A piece of chocolate layer cake on a floral patterned dish.',
+        'Chocolate dessert cake on a plate.', 'the chocolate slice',
+        'chocolate dessert', 'dark slice', 'chocolate cake',
+        'dessert on right', 'the dark chocolate cake on a plate'],
+       dtype=object)}                                                                       ]","Closest: a broken plate
+----
+Mid Range: a paper boat
+----
+Farthest: a cat
+----
+"
+000000034739,image/image_99.jpg,"['A smiling bear covered in green moss.; Rocks that look like Winnie-the-poo, facing the camera; filthy winnie the pooh; pooh bear; bear with face; Winnie the Pooh; right bear; bear with yellow'
+ 'A TOY TEDDY BEAR HOLDING A GIRL BABY TOY; SOME FIGURES MADE ON ROCK; bear holding doll; big stone bear; bear with girl; left bear; left bear']",[2 1],"[{'ref_id': 2, 'text': array(['A smiling bear covered in green moss.',
+        'Rocks that look like Winnie-the-poo, facing the camera',
+        'filthy winnie the pooh', 'pooh bear', 'bear with face',
+        'Winnie the Pooh', 'right bear', 'bear with yellow'], dtype=object)}
+ {'ref_id': 1, 'text': array(['A TOY TEDDY BEAR HOLDING A GIRL BABY TOY',
+        'SOME FIGURES MADE ON ROCK', 'bear holding doll', 'big stone bear',
+        'bear with girl', 'left bear', 'left bear'], dtype=object)}        ]","Closest: a teddy bear
+----
+Mid Range: a stone wall
+----
+Farthest: a monkey
+----
+"

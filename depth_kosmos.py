@@ -72,8 +72,8 @@ class DepthContextCreator:
 
     def make_depth_context_img(self, image):
         image_array = np.array(image)
-        print("Image loaded as NumPy array:")
-        print(image_array.shape)
+        # print("Image loaded as NumPy array:")
+        # print(image_array.shape)
         all_outputs = self.on_submit(image_array)
         intensity_image = all_outputs[0][1]
         height, width, channels = image_array.shape

@@ -19,3 +19,4 @@ tensorflow
 shapely
 ipykernel
 opencv-python
+python-dotenv

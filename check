@@ -1,6 +1,11 @@
 git config --global user.email "royrajarshi0123@gmail.com"
 git config --global user.name "Rajarshi Roy"
 
+
+source .venv/bin/activate
+
+----------------------------------
+
 pip install -r requirements.txt
 
 chmod +x install_depth_anything.sh
