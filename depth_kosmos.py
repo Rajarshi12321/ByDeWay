@@ -142,7 +142,7 @@ class DepthKosmosCaptioner:
         full_string = ""
         for i in range(3):
             caption, entities = self.captioner.get_caption_and_entities(images[i])
-            full_string += f"{self.location[i]}: {entities[0]}\n----\n"
+            full_string += f"{self.location[i]}: {entities[0][0]}\n----\n"
         return full_string
 
 
