@@ -21,3 +21,4 @@ shapely
 ipykernel
 opencv-python
 python-dotenv
+openai
