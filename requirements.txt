@@ -22,3 +22,7 @@ ipykernel
 opencv-python
 python-dotenv
 openai
+numpy
+torch
+matplotlib
+huggingface_hub
