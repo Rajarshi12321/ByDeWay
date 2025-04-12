@@ -4,6 +4,16 @@ git config --global user.name "Rajarshi Roy"
 
 
 ----------------------------------
+
+git clone https://github.com/Rajarshi12321/Depth-SoM.git
+
+
+
+
+
+
+
+
 source .venv/bin/activate
 
 
