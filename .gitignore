@@ -7,6 +7,8 @@ __pycache__/
 # C extensions
 *.so
 
+.conda/
+
 flickr30k_grounding/
 image/
 Depth-Anything-V2/
