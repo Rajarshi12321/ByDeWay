@@ -161,7 +161,7 @@ class DepthKosmosCaptioner:
         self.model = AutoModelForVision2Seq.from_pretrained(ckpt).to(self.device)
         self.depth_context = DepthContextCreator()
         self.captioner = Kosmos2Captioner(ckpt=ckpt, device=self.device)
-        self.location = ["Closest", "Mid Range", "Farthest"]
+        self.location = ["Closest", "Farthest", "Mid Range"]
 
     def get_caption_with_depth(self, image, top_threshold=70, bottom_threshold=30):
         images = self.depth_context.make_depth_context_img(
