@@ -121,15 +121,6 @@ If you use **ByDeWay** or its depth captioning workflow in your research, please
 
 > Roy, R., Das, D., Banerjee, A., Bhattacharjee, A., Dasgupta, K., & Tripathi, S. ByDeWay: Boost Your multimodal LLM with DEpth prompting in a training-free Way. Kalyani Government Engineering College & Intel Labs, 2024.
 
-## Acknowledgments
-
-- Depth Anything V2 and KOSMOS-2 authors.
-- Inspired by work on multimodal large language models and depth-aware captioning.
-
 ## Links
-
-- [Full Project Paper (PDF)]
-- [GitHub Repository]
-
-: https://arxiv.org/pdf/2507.08679  
-: https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning
+- [Full Project Paper (PDF)](https://arxiv.org/pdf/2507.08679)
+- [GitHub Repository](https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning)
