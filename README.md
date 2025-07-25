@@ -2,7 +2,7 @@
 
 ## Overview
 
-**ByDeWay** is a training-free framework designed to improve the spatial reasoning and grounding abilities of Multimodal Large Language Models (MLLMs) through **Layered-Depth-based Prompting (LDP)**. This Python package uses monocular depth estimation along with automatic region-aware captioning to enrich model prompts with structured spatial context, boosting performance on tasks prone to hallucination and those needing detailed visual reasoning.[1]
+**ByDeWay** is a training-free framework designed to improve the spatial reasoning and grounding abilities of Multimodal Large Language Models (MLLMs) through **Layered-Depth-based Prompting (LDP)**. This Python package uses monocular depth estimation along with automatic region-aware captioning to enrich model prompts with structured spatial context, boosting performance on tasks prone to hallucination and those needing detailed visual reasoning.
 
 ## Features
 
@@ -10,7 +10,7 @@
 - **Plug-and-Play:** Compatible with any black-box MLLM that accepts image and text inputs.
 - **Layered Spatial Context:** Utilizes monocular depth estimation to segment images into closest, mid-range, and farthest regions.
 - **Region-Specific Captioning:** Automatically generates captions for each depth layer.
-- **Improved Performance:** Consistently enhances hallucination resistance and spatial reasoning—as shown on POPE and GQA tasks.[1]
+- **Improved Performance:** Consistently enhances hallucination resistance and spatial reasoning—as shown on POPE and GQA tasks.
 - **Modular & Scalable:** Add LDP as an input prompt component for diverse use cases.
 
 ## Workflow
@@ -39,41 +39,55 @@ ByDeWay-Depth-Captioning/
 
 ## Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning.git
-   cd ByDeWay-Depth-Captioning
-   ```
+### 1. Clone the Repository
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning.git
+cd ByDeWay-Depth-Captioning
+```
 
-3. **Install Depth Anything dependencies:**
-   ```bash
-   bash install_depth_anything.sh
-   ```
+### 2. Install Python Dependencies
 
-*Note: Instructions assume a Python 3.8+ environment.*
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set Up Depth Anything
+
+Install the dependencies and download weights for the Depth Anything V2 monocular depth estimator:
+
+```bash
+bash install_depth_anything.sh
+```
+
+**Note:** Instructions above assume a Python 3.8+ environment.
+
+### 4. (Optional) Additional Model Setups
+
+Refer to the [project README] or the individual notebook instructions for guidance on setting up KOSMOS-2 or other region captioning vision-language models as needed for your workflow.
 
 ## Quick Start Example
 
-Open a demo notebook from the `notebooks/` directory or run a Python script from the `src/depth_captioning/` module to process an image. The standard workflow is as follows:
+Open a demo notebook from the `notebooks/` directory or run a Python script from the `src/depth_captioning/` module to process an image:
 
 ```python
-from src.depth_captioning.pipeline import DepthCaptioningPipeline
+import requests
+from src.depth_captioning.depth_kosmos import DepthKosmosCaptioner, Image as Image_PIL
 
-# Initialize pipeline
-pipeline = DepthCaptioningPipeline()
+# Initialize the depth-aware captioning pipeline
+depth_kosmos_captioner = DepthKosmosCaptioner()
 
-# Process image and generate LDP prompt
-ldp_prompt = pipeline.generate_ldp_prompt(
-    image_path='path/to/image.jpg',
-    question='Is the person in the front wearing a white robe?'
-)
+# Load the image from a URL
+url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5jMLHnfiO56w8iVWAwI4VvOu4B_5c2C1ww&s"
+response = requests.get(url, stream=True)
+image = Image_PIL.open(response.raw)
 
-print(ldp_prompt)
+# (Optional) Visualize depth segmentation
+# depth_kosmos_captioner.display_depth_images(image)
+
+# Generate and print the depth-based structured caption
+full_caption_string = depth_kosmos_captioner.get_caption_with_depth(image)
+print(full_caption_string)
 ```
 
 ## Usage Details
@@ -85,17 +99,17 @@ print(ldp_prompt)
 
 ## Benchmark Results
 
-| Model          | Task  | Baseline Accuracy | LDP Accuracy | Δ  |
-|----------------|-------|-------------------|--------------|----|
-| GPT-4o         | POPE  | 0.860             | 0.873        | +0.013 |
-| Qwen2.5-VL     | POPE  | 0.7267            | 0.9000       | +0.1733 |
-| ViLT           | POPE  | 0.8533            | 0.9267       | +0.0734 |
-| BLIP           | POPE  | 0.8733            | 0.9533       | +0.08 |
-| Qwen2.5-VL     | GQA   | 0.5007            | 0.6592       | +0.1585 |
-| ViLT           | GQA   | 0.527             | 0.627        | +0.1 |
-| BLIP           | GQA   | 0.5552            | 0.6704       | +0.1152 |
+| Model        | Task | Baseline Accuracy | LDP Accuracy | Δ |
+|--------------|------|-------------------|--------------|----|
+| GPT-4o       | POPE | 0.860             | 0.873        | +0.013 |
+| Qwen2.5-VL   | POPE | 0.7267            | 0.9000       | +0.1733 |
+| ViLT         | POPE | 0.8533            | 0.9267       | +0.0734 |
+| BLIP         | POPE | 0.8733            | 0.9533       | +0.08   |
+| Qwen2.5-VL   | GQA  | 0.5007            | 0.6592       | +0.1585 |
+| ViLT         | GQA  | 0.527             | 0.627        | +0.1    |
+| BLIP         | GQA  | 0.5552            | 0.6704       | +0.1152 |
 
-*LDP = With Layered-Depth-based Prompting. See full paper for F1, Precision, Recall, and qualitative examples.*[1]
+*LDP = With Layered-Depth-based Prompting. See the project paper for F1, Precision, Recall, and qualitative examples.*
 
 ## License
 
@@ -105,20 +119,17 @@ This project is released for research and academic use. See the repository for d
 
 If you use **ByDeWay** or its depth captioning workflow in your research, please cite:
 
-> Roy, R., Das, D., Banerjee, A., Bhattacharjee, A., Dasgupta, K., & Tripathi, S. ByDeWay: Boost Your multimodal LLM with DEpth prompting in a training-free Way. Kalyani Government Engineering College & Intel Labs, 2024.[1]
+> Roy, R., Das, D., Banerjee, A., Bhattacharjee, A., Dasgupta, K., & Tripathi, S. ByDeWay: Boost Your multimodal LLM with DEpth prompting in a training-free Way. Kalyani Government Engineering College & Intel Labs, 2024.
 
 ## Acknowledgments
 
 - Depth Anything V2 and KOSMOS-2 authors.
-- Inspired by work on multimodal large language models and depth-aware captioning.[1]
+- Inspired by work on multimodal large language models and depth-aware captioning.
 
 ## Links
 
-- [Project Paper: ByDeWay — Boost Your multimodal LLM with DEpth prompting in a training-free Way][1]
-- [GitHub Repository][2]
+- [Full Project Paper (PDF)]
+- [GitHub Repository]
 
-: ByDeWay_depth_prompting_for_MLLM.pdf  [1]
-: https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning[2]
-
-[1] https://arxiv.org/pdf/2507.08679
-[2] https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning
+: https://arxiv.org/pdf/2507.08679  
+: https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning
