@@ -62,10 +62,6 @@ bash install_depth_anything.sh
 
 **Note:** Instructions above assume a Python 3.8+ environment.
 
-### 4. (Optional) Additional Model Setups
-
-Refer to the [project README] or the individual notebook instructions for guidance on setting up KOSMOS-2 or other region captioning vision-language models as needed for your workflow.
-
 ## Quick Start Example
 
 Open a demo notebook from the `notebooks/` directory or run a Python script from the `src/depth_captioning/` module to process an image:
