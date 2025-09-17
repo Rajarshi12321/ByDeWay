@@ -115,8 +115,15 @@ This project is released for research and academic use. See the repository for d
 
 If you use **ByDeWay** or its depth captioning workflow in your research, please cite:
 
-> Roy, R., Das, D., Banerjee, A., Bhattacharjee, A., Dasgupta, K., & Tripathi, S. ByDeWay: Boost Your multimodal LLM with DEpth prompting in a training-free Way. Kalyani Government Engineering College & Intel Labs, 2024.
-
+> @misc{roy2025bydewayboostmultimodalllm,
+      title={ByDeWay: Boost Your multimodal LLM with DEpth prompting in a Training-Free Way}, 
+      author={Rajarshi Roy and Devleena Das and Ankesh Banerjee and Arjya Bhattacharjee and Kousik Dasgupta and Subarna Tripathi},
+      year={2025},
+      eprint={2507.08679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.08679}, 
+}
 ## Links
 - [Full Project Paper (PDF)](https://arxiv.org/pdf/2507.08679)
 - [GitHub Repository](https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning)
