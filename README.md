@@ -13,6 +13,11 @@
 - **Improved Performance:** Consistently enhances hallucination resistance and spatial reasoning—as shown on POPE and GQA tasks.
 - **Modular & Scalable:** Add LDP as an input prompt component for diverse use cases.
 
+## Datasets used for Evaluation:
+
+1. POPE Dataset (150 Samples) : [POPE 150 Dataset](https://huggingface.co/datasets/Rajarshi-Roy-research/lmms-lab-POPE)
+2. GQA Dataset (150 Samples) : [GQA 150 Dataset](https://huggingface.co/datasets/Rajarshi-Roy-research/GQA-dataset-150)
+
 ## Workflow
 
 1. **Image Input:** Provide an RGB image for analysis.
@@ -122,8 +127,9 @@ If you use **ByDeWay** or its depth captioning workflow in your research, please
       eprint={2507.08679},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.08679}, 
+      url={https://arxiv.org/abs/2507.08679 }, 
 }
+
 ## Links
 - [Full Project Paper (PDF)](https://arxiv.org/pdf/2507.08679)
 - [GitHub Repository](https://github.com/Rajarshi12321/ByDeWay-Depth-Captioning)
