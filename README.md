@@ -127,8 +127,6 @@ If you use **ByDeWay** or its depth captioning workflow in your research, please
     month     = {October},
     year      = {2025},
     pages     = {6117-6123}
-}}
-, 
 }
 
 ## Links
