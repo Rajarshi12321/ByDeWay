@@ -120,14 +120,15 @@ This project is released for research and academic use. See the repository for d
 
 If you use **ByDeWay** or its depth captioning workflow in your research, please cite:
 
-> @misc{roy2025bydewayboostmultimodalllm,
-      title={ByDeWay: Boost Your multimodal LLM with DEpth prompting in a Training-Free Way}, 
-      author={Rajarshi Roy and Devleena Das and Ankesh Banerjee and Arjya Bhattacharjee and Kousik Dasgupta and Subarna Tripathi},
-      year={2025},
-      eprint={2507.08679},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.08679 }, 
+>@InProceedings{Roy_2025_ICCV,
+    author    = {Roy, Rajarshi and Das, Devleena and Banerjee, Ankesh and Bhattacharjee, Arjya and Dasgupta, Kousik and Tripathi, Subarna},
+    title     = {ByDeWay: Boost Your multimodal LLM with DEpth prompting in a Training-Free Way},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {6117-6123}
+}}
+, 
 }
 
 ## Links
